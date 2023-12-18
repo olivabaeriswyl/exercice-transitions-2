@@ -1,0 +1,102 @@
+#ex01 .recipe {
+  transition-duration: 0.5s;
+}
+
+#ex01 .recipe:hover {
+  transform: scale(1.1);
+}
+
+#ex02 .recipe-image {
+  transition: 0.5s;
+}
+
+#ex02 .recipe:hover .recipe-image {
+  transform: rotate(5deg);
+}
+
+#ex03 .recipe-image {
+  transition: 0.5s;
+}
+
+#ex03 .recipe:hover .recipe-image {
+  opacity: 50%;
+}
+
+#ex04 .recipe-title {
+  transition: transform 0.5s;
+}
+
+#ex04 .recipe:hover .recipe-title {
+  transform: translateX(20px);
+}
+
+#ex05 .recipe-title {
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+#ex05 .recipe:hover .recipe-title {
+  transform: translateX(20px);
+}
+
+#ex06 .recipe-title {
+  transition-duration: 0.5s;
+}
+
+#ex06 .recipe:hover .recipe-title {
+  margin-bottom: 30px;
+}
+
+
+#ex07 .recipe {
+  transition: padding-bottom 0.5s 0.5s;
+}
+
+#ex07 .recipe:hover {
+  transition-delay: 0s;
+  padding-bottom: 30px;
+}
+
+#ex07 .recipe-title {
+  transition: transform 0.5s;
+}
+
+#ex07 .recipe:hover .recipe-title {
+  transform: translateY(20px);
+  transition-delay: 0.5s;
+}
+
+#ex08 .recipe {
+  transition: 0.5s;
+}
+
+#ex08 .recipe:hover {
+  box-shadow: 0 0 10px black;
+}
+
+#ex09 .recipe-header {
+  transition: 0.5s;
+  background: white;
+}
+
+#ex09 .recipe:hover .recipe-header {
+  transform: translateY(-30px);
+}
+
+#ex10 .recipe-image:first-child {
+  position: relative;
+  overflow: hidden;
+}
+
+#ex10 .recipe-image:last-child {
+  position: absolute;
+  top: 0;
+
+  transition: 0.5s;
+  transform: translateX(-450px);
+}
+
+#ex10 .recipe:hover .recipe-image:last-child {
+  transform: translateX(0);
+}
