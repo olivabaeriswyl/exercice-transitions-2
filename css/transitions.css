@@ -92,7 +92,6 @@
 #ex10 .recipe-image:last-child {
   position: absolute;
   top: 0;
-
   transition: 0.5s;
   transform: translateX(-450px);
 }
